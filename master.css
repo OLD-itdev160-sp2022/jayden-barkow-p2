@@ -1,0 +1,66 @@
+body {
+    background-color: darkturquoise;
+  }
+  .page {
+    width: 80%;
+    max-width: 960px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 5px;
+  }
+  body {
+    font: 14px/26px 'Bungee', Helvetica, Arial, sans-serif;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+  }
+  header{
+    font-size: 25px;
+    line-height: 48px;
+  }
+  h4 {
+    font-size: 20px;
+    font-family: 'Bungee', cursive;
+  }
+  h4 #clock {
+    font-size: 35px;
+    display: block;
+    padding: 5px 0px;
+  }
+  h1, h2, h3, h6 {
+    font-family: 'Bungee Shade', cursive;
+  }
+  
+  #image{
+    max-width:30em
+  }
+  
+  blockquote {
+      float: center;
+    font: 3em/1em 'Open Sans', sans-serif;
+    text-shadow: 2px 2px #000;
+    margin: -80px 0 100px 0;
+    color: black;
+  }
+  
+  blockquote:before { content: '"'; }
+  blockquote:after { content: '"'; }
+  
+  #image {
+    margin: 0 auto;
+    border-radius: 10px;
+    border:10px solid #222;
+  }
+  #wakeUpTimeSelector, #lunchTimeSelector, #napTimeSelector {
+    padding: 10px 0;
+    margin-bottom: 1.5em;
+  }
+ 
+  
+  footer p {
+    text-transform: uppercase;
+    font-size: 10px;
+    float: right;
+  }
